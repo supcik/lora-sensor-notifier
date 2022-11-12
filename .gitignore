@@ -1,3 +1,4 @@
 /build
 secrets.csv
 /*.bin
+sdkconfig.old

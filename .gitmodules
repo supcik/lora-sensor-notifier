@@ -1,0 +1,23 @@
+[submodule "components/Adafruit-GFX-Library"]
+	path = components/Adafruit-GFX-Library
+	url = https://github.com/adafruit/Adafruit-GFX-Library.git
+[submodule "components/Adafruit_BusIO"]
+	path = components/Adafruit_BusIO
+	url = https://github.com/adafruit/Adafruit_BusIO.git
+[submodule "components/Adafruit_SSD1306"]
+	path = components/Adafruit_SSD1306
+	url = https://github.com/adafruit/Adafruit_SSD1306.git
+[submodule "components/arduino-lmic"]
+	path = components/arduino-lmic
+	url = https://github.com/supcik/arduino-lmic.git
+	branch = esp-idf
+[submodule "components/Catena-mcciadk"]
+	path = components/Catena-mcciadk
+	url = https://github.com/supcik/Catena-mcciadk.git
+[submodule "components/arduino-lorawan"]
+	path = components/arduino-lorawan
+	url = https://github.com/supcik/arduino-lorawan.git
+[submodule "components/arduino"]
+	path = components/arduino
+	url = https://github.com/supcik/arduino-esp32.git
+	branch = dev

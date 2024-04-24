@@ -1,0 +1,7 @@
+menu "Application Configuration"
+config SENSOR_PIN
+        int "sensor pin"
+        default 15
+        help
+            Sensor pin
+endmenu

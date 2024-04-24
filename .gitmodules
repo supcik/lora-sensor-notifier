@@ -19,5 +19,4 @@
 	url = https://github.com/supcik/arduino-lorawan.git
 [submodule "components/arduino"]
 	path = components/arduino
-	url = https://github.com/supcik/arduino-esp32.git
-	branch = dev
+	url = https://github.com/espressif/arduino-esp32.git

@@ -1,5 +1,4 @@
-#ifndef COMPONENTS_DISPLAY_INCLUDE_DISPLAY_HPP_
-#define COMPONENTS_DISPLAY_INCLUDE_DISPLAY_HPP_
+#pragma once
 
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -8,15 +7,17 @@ class Display {
    public:
     static Display* Instance();
     Adafruit_SSD1306* Lcd();
-    void Message(const char* title, const char* message);
-    bool Started();
+    void Init();
+    void SplashScreen();
+    void SetStatus(const char* status);
+    void SetMessage(const char* status);
+    void Update();
 
    private:
     Display();
     Display(Display const&);
     void operator=(Display const&);
     Adafruit_SSD1306* lcd_;
-    bool started_;
+    char status_[32]  = {0};
+    char message_[64] = {0};
 };
-
-#endif /* COMPONENTS_DISPLAY_INCLUDE_DISPLAY_HPP_ */
